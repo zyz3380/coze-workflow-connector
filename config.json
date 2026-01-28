@@ -1,8 +1,26 @@
 {
-    "authorizations": [
-        {
-            "username": "123",
-            "password": "123"
-        }
-    ]
+    "authorizations": [],
+    "formItemParams": {
+        "api_token": "你的 Coze API Token",
+        "workflow_id": "7535289231356035112",
+        "api_endpoint": {
+            "value": "china"
+        },
+        "param1_key": "query",
+        "param1_value": [
+            {
+                "type": "text",
+                "text": "测试输入内容"
+            }
+        ],
+        "param2_key": "",
+        "param2_value": null,
+        "param3_key": "",
+        "param3_value": null,
+        "param4_key": "",
+        "param4_value": null,
+        "param5_key": "",
+        "param5_value": null,
+        "output_key": ""
+    }
 }

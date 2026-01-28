@@ -1,20 +1,32 @@
 {
-  "name": "field-starter",
+  "name": "coze-workflow-connector",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "飞书多维表格字段捷径插件 - Coze 工作流连接器，便捷调用 Coze 平台的自定义工作流",
+  "main": "src/index.ts",
   "scripts": {
     "start": "block-basekit-cli start:field",
     "build": "block-basekit-cli build:field",
     "pack": "block-basekit-cli pack:field",
     "dev": "block-basekit-cli dev:field"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "lark",
+    "feishu",
+    "base",
+    "field-plugin",
+    "coze",
+    "workflow",
+    "ai"
+  ],
+  "author": "智哥哥",
+  "license": "MIT",
   "devDependencies": {
     "@lark-opdev/block-basekit-cli": "1.0.5"
   },
   "dependencies": {
     "@lark-opdev/block-basekit-server-api": "1.0.6"
+  },
+  "engines": {
+    "node": ">=14.21.0"
   }
 }
